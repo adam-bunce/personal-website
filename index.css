@@ -7,7 +7,7 @@ http://jsfiddle.net/ghd63x5s/2/
 .flex-container {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-content: center;
     align-items: stretch;
@@ -19,8 +19,8 @@ http://jsfiddle.net/ghd63x5s/2/
     align-self: auto;
     background: #900;
     min-height: 100px;
-    max-width: 800px;
-    width: 1000;
+
+    width: 800;
     }
 
 .child2 {
@@ -29,7 +29,7 @@ http://jsfiddle.net/ghd63x5s/2/
     align-self: auto;
     background: #090;
     min-height: 100px;
-    width: 800;
+    width: 647;
     }
 
 p {text-align: left;
