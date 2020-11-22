@@ -31,7 +31,7 @@ http://jsfiddle.net/ghd63x5s/2/
     }
 
 .child3 {
-    flex-direction: column;
+    flex-direction: row;
     order: 0;
     flex: 0 1 auto;
     align-self: auto;
