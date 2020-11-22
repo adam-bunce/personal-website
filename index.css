@@ -15,6 +15,7 @@ http://jsfiddle.net/ghd63x5s/2/
 
 .child1 {
     align-content: left;
+    align-items: left;
     order: 0;
     flex: 0 1 auto;
     align-self: auto;
@@ -25,6 +26,7 @@ http://jsfiddle.net/ghd63x5s/2/
 
 .child2 {
     align-content: left;
+    align-items: left;
     order: 0;
     flex: 0 1 auto;
     align-self: auto;
