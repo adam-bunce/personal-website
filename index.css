@@ -9,7 +9,7 @@ http://jsfiddle.net/ghd63x5s/2/
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-around;
-    align-content: stretch;
+    align-content: center;
     align-items: stretch;
     }
 
