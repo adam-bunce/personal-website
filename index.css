@@ -20,6 +20,7 @@ http://jsfiddle.net/ghd63x5s/2/
     background: #900;
     min-height: 100px;
     max-width: 800px;
+    width: 1000;
     }
 
 .child2 {
@@ -28,6 +29,7 @@ http://jsfiddle.net/ghd63x5s/2/
     align-self: auto;
     background: #090;
     min-height: 100px;
+    width: 800;
     }
 
 p {text-align: left;
