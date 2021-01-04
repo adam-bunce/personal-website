@@ -59,7 +59,9 @@ margin: .5em;
 }
 
 .video{
-    flex-shrink: 1;
+    max-width: 100%;
+    height: auto;
+
 }
 
 .division {
