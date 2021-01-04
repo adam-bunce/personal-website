@@ -59,8 +59,9 @@ margin: .5em;
 }
 
 .video{
-    max-width: 100%;
-    height: auto;
+    width: 100%;
+    object-fit: cover;
+
 
 }
 
