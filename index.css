@@ -4,6 +4,21 @@
 http://jsfiddle.net/ghd63x5s/2/
 */
 
+
+
+
+/*
+
+flex wrap elements to mobile isnt turbo cancer
+
+add projects webdev and resume
+
+add info into first block
+
+make linkedin to link
+
+swap email to school email
+*/
 body {
 
 
@@ -17,7 +32,6 @@ body {
 .flex-container {
     display : flex;
     flex-direction: row;
-
     align-items: flex-start;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -66,7 +80,10 @@ margin: .5em;
 
 }
 
+
+
 .division {
+
     color: white;
     margin-top:5%
 }
