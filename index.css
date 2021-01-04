@@ -4,41 +4,102 @@
 http://jsfiddle.net/ghd63x5s/2/
 */
 
+body {
+
+
+    margin-right: 18%;
+    margin-left: 18%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+
 .flex-container {
-    display: flex;
+    display : flex;
     flex-direction: row;
-    flex-wrap: wrap;
+
+    align-items: flex-start;
     justify-content: space-around;
-    align-content: center;
+    flex-wrap: wrap;s
+
+}
+
+
+.blueLink{
+    color: #4330fc;
+
+
+}
+
+.blackLink{
+    color: #181717;
+
+}
+
+.greenLink{
+    color: #2aa779;
+
+}
+
+
+/* line-height no work gotta do this rippped off stackoverfolow */
+.brmedium {
+    content: " ";
+display: block;
+margin: .5em;
+       }
+
+.flex-section {
+  color: black;
+  flex-wrap: wrap;
+  display: flex;
+
+
+
+}
+
+.division {
+    color: white;
+    margin-top:5%
+}
+
+.one-half {
+    width: 45%;
+}
+
+.subsection{
+    margin-top: 0px;
+    margin-bottom: 1%;
+}
+
+.section {
+    display: flex;
+    color: white;
+    flex-wrap: wrap;
+
     align-items: stretch;
-    }
 
-.child1 {
-    order: 0;
-    flex: 0 1 auto;
-    align-self: auto;
-    background: #900;
-    min-height: 100px;
+}
 
-    width: 800;
-    }
 
-.child2 {
-    order: 0;
-    flex: 0 1 auto;
-    align-self: auto;
-    background: #090;
-    min-height: 100px;
-    width: 647;
-    }
+.even-spacing{
 
-p {text-align: left;
-    margin: 10 00 30 30;
+    justify-content: space-between;
+}
+
+
+
+
+p {
+
+
     font-family: 'Inter', sans-serif;
-    font-size: 25px;
+    font-size: 15px;
     font-style: normal;
-     font-variant: normal;
-     font-weight: 50;
-     color: #000;
-     line-height: 50px;
+    font-variant: normal;
+
+    /* font weight doesnt work cause im using a google font */
+    font-weight: 500;
+    color: #000;
+    line-height: 25px;
 }
