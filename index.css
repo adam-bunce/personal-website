@@ -20,7 +20,7 @@ body {
 
     align-items: flex-start;
     justify-content: space-around;
-    flex-wrap: wrap;s
+    flex-wrap: wrap;
 
 }
 
@@ -56,6 +56,10 @@ margin: .5em;
 
 
 
+}
+
+.video{
+    flex-shrink: 1;
 }
 
 .division {
