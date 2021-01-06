@@ -123,7 +123,16 @@ margin: .5em;
   height: 5%;
   background-color: black;
   color: white;
+
   text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-variant: normal;
+
+  /* font weight doesnt work cause im using a google font */
+  font-weight: 500;
+  line-height: 25px;
 }
 
 p {
