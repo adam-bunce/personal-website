@@ -27,6 +27,14 @@ body {
 }
 
 
+.bodyInfoPages {
+    margin-right: 4%;
+    margin-left: 1.5%;
+    margin-bottom: 0%;
+    margin-top: .5%;
+}
+
+
 .flex-container {
     display : flex;
     flex-direction: row;
@@ -46,6 +54,11 @@ body {
 
 .greenLink{
     color: #2aa779;
+}
+
+.greyLink{
+    color: 	#b1b2b3;
+    text-decoration: none;
 }
 
 
