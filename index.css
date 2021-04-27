@@ -8,15 +8,10 @@ http://jsfiddle.net/ghd63x5s/2/
 
 
 /*
-
 flex wrap elements to mobile isnt turbo cancer
-
 add projects webdev and resume
-
 add info into first block
-
 make linkedin to linka
-
 swap email to school email
 */
 body {
@@ -89,22 +84,92 @@ body {
     margin-top:5%
 }
 
+
+.infopageMargin{
+
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 0%;
+    margin-top: 3%;
+}
+
+
 .one-half {
     width: 45%;
 }
 
+
+
+.one-third {
+    width: 30%;
+}
+
+.two-thirds {
+    width: 60%;
+}
+
+
+.divBlackBorder{
+    border-color: black;
+    border-style: solid;
+
+}
 .subsection{
+   /* border-color: green;*/
+    border-style: solid;
+    
+/*adding display flex fixed the turbo long video*/
+    display: flex;
+
+
     margin-top: 0px;
     margin-bottom: 1%;
 }
 
+.centerItemSVG{
+ 
+    min-height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /*padding cause aligns top right corner i think*/
+    padding-left: 115px;
+}
+
+
+
+star{
+    opacity: 0.1;
+    fill: #464646;
+    stroke:rgb(0, 0, 0);
+    stroke-width:5;
+    fill-rule: evenodd;
+}
+
+#star:hover {
+    opacity: 0.5;
+    fill: #464646;
+}
+
+
+
+
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 .section {
+ 
+   /* border-color: red;*/
+    border-style: solid;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-
-
-
     color: white;
     align-items: stretch;
 
@@ -117,10 +182,6 @@ body {
   flex-direction: row;
   justify-content: space-between;
 }
-
-
-
-
 
 .footer {
   position: fixed;
