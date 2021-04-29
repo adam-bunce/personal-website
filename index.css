@@ -213,10 +213,26 @@ p {
 }
 
 
+@media all and (max-width: 1000px) {
+    .division {
+        display: flex;
+        justify-content: left;
+        margin-bottom: 3%;
+        
+    }
 
-/*need this to do flexwrap on div's supposedly*/
-html, body {
-  height: 97%;
-  display: flex;
-  flex-direction: column;
+    .subsection{
+        margin-left: 3%; 
+    }
+    .one-half{
+        width: 90%
+    }
+
+    body {
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-bottom: 6%;
+        margin-top: 3%;
+    }
+
 }
